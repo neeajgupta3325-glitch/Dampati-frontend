@@ -109,3 +109,23 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+
+.profile-card {
+    border: 1px solid #e0d6dc;
+    border-radius: 12px;
+    padding: 18px;
+    margin: 16px 0;
+    background: #00000082;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.profile-card h3 {
+    color: #dac2d7;
+    margin-top: 0;
+}
+
+.profile-card p {
+    margin: 8px 0;
+    color: #a26e6e;
+}

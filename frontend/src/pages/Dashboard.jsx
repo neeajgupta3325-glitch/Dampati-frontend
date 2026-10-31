@@ -9,11 +9,13 @@ function Dashboard() {
 
             <div>
                 <button onClick={(() => navigate("/profile"))}>My Profile</button>
-                <button>Partner Preferences</button>
-                <button>Search Profiles</button>
-                <button>My Interests</button>
-                <button>Shortlist</button>
-                <button>Messages</button>
+                <button onClick={(() => navigate("/partner-preferences"))}>Partner Preferences</button>
+                <button onClick={(() => navigate("/search-profile"))}>Search Profiles</button>
+                <button onClick={(() => navigate("/my-interests"))}>My Interests</button>
+                <button onClick={(() => navigate("/My-shortlist"))}>My Shortlist</button>
+                <button onClick={(() => navigate("/received-interests"))}>Received Interests</button>
+                <button onClick={(() => navigate("/sent-interests"))} >Sent Interests</button>
+                <button onClick={(() => navigate("/chats"))}>Messages</button>
             </div>
         </div>
     )
